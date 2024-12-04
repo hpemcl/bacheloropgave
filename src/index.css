@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: 'Briocolage';
+  src: url('./assets/fonts/brio/BricolageGrotesque_72pt-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Briocolage';
+  src: url('./assets/fonts/brio/BricolageGrotesque_24pt_Condensed-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Golos';
+  src: url('./assets/fonts/golo/GolosText-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Golos';
+  src: url('./assets/fonts/golo/GolosText-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+nav > div.relative {
+  position: relative;
+}
+
+nav > div.relative .absolute {
+  top: 100%; /* Sikrer, at dropdown starter under "Om os" */
+  left: 0;
+  margin-top: 0; /* Fjern eventuelle konflikter */
+}
+
+#wpadminbar {
+  display: none;
+}
+html {
+  margin-top: 0 !important;
+}
+

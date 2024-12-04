@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#wpadminbar {
+  display: none;
+}
+html {
+  margin-top: 0 !important;
+}
+
+
+button {
+  transition: all 4s ease;
+}
+
+button img {
+  display: block;
+}
+
+
+.group:hover .group-hover:block {
+  display: block;
+}
+
+.group-hover:block {
+  display: none;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.left-0 {
+  left: 0;
+}
+
+.mt-2 {
+  margin-top: 0.5rem; /* Justering af dropdown placering */
+}
+
+.w-48 {
+  width: 12rem;
+}
+
+.z-20 {
+  z-index: 20; /* Sørger for, at dropdown-menuen er oven på andre elementer */
+}
+
